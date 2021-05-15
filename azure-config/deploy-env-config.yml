@@ -1,0 +1,14 @@
+name: deploy-env
+channels:
+    - defaults
+dependencies:
+    - python=3.8
+    - pip 
+    - pip:
+        - pandas
+        - numpy
+        - scikit-learn
+        - scikit-multilearn
+        - azureml-sdk
+        - azureml-contrib-services
+        - azureml-core
